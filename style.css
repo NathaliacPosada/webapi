@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+body {
+    margin: 20px;
+}
+
+  
+h1 {
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid#333;
+    border-radius: 50px;
+    display: flex;
+    background-color: transparent;
+}
+
+form input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    flex: 1;
+    background-color: transparent;
+}
+
+form button{
+    padding: 5px 10px;
+    background-color:  #333;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+form button:hover{
+    background-color:  #121212;
+}
+
+form:hover{
+    border: 1px solid rgb(111, 111, 111);
+}
+
+div.btn{
+  text-align: center; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 10px;
+}
+
+button{
+  padding: 5px 10px;
+  background-color:  #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+ button:hover{
+  background-color: #121212;
+}
+
+div.lista{
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+div.item{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+div.item img{
+    width:100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+div.item p {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+
+div.item h2 {
+  color: whitesmoke;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
